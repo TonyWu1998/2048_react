@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #000;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-size: 2.8rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.row {
+  height: 100px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px #555;
+  padding-top: 25px;
+}
+
+.square h1 {
+  color: #ccc;
+}
